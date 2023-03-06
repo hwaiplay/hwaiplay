@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB16C&height=200&section=header&text=Hwai-hub&fontSize=50&fontColor=fff&fontAlignY=37" />
 </p>
 
-<p align="center">✉︎ email: iamhanwon@gmail.com</p>
+<p align="center">✉︎ email: vs81702738@gamil.com</p>
 <p align="center">☘︎ portfolio:
   <a href="https://www.canva.com/design/DAFb2TJ2ASg/2hUvfDNk4qw7XL6QGuU0jQ/view?utm_content=DAFb2TJ2ASg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu">
   <img src="https://img.shields.io/badge/Click%20Me-FA7600?style=flat-square&logoColor=white&link=https://www.canva.com/design/DAFb2TJ2ASg/2hUvfDNk4qw7XL6QGuU0jQ/view?utm_content=DAFb2TJ2ASg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"/>
