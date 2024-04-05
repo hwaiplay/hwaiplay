@@ -3,7 +3,7 @@
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 안녕하세요! 신입개발자 강승현입니다. </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #c9d1d9;"> <li> 삼구아이앤씨(e<li>SEP)</li><li> 마르지 않는 도전정신</li><li> 자신과 타협하지 않는 끈기</li><li> 포기하지 않는 집념 </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #c9d1d9;"> <li> 삼구아이앤씨ERP(e-SEP) 추가개발 및 유지보수 경험</li><li> 마르지 않는 도전정신</li><li> 자신과 타협하지 않는 끈기</li><li> 포기하지 않는 집념 </div> 
     </div>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🛠️ Tech Stacks </h2> <br> 
