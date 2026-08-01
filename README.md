@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:22C55E&height=220&section=header&text=Seungheoun%20Kang&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Backend%20Developer%20%C2%B7%20Enterprise%20Integration&descAlignY=58&descSize=18" alt="Seunghyun Kang header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:22C55E&height=220&section=header&text=Seunghyeon%20Kang&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Backend%20Developer%20%C2%B7%20Enterprise%20Integration&descAlignY=58&descSize=18" alt="Seunghyun Kang header" />
 </div>
 
 <div align="center">
