@@ -131,8 +131,6 @@ ERP, 예약, 결제, 알림, 대외계 시스템을 하나의 서비스 흐름�
 
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hwaiplay&theme=github_dark" alt="hwaiplay GitHub profile details" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hwaiplay&theme=github_dark" alt="hwaiplay GitHub stats" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hwaiplay&theme=github_dark" alt="hwaiplay repositories per language" />
 </div>
 
 ## 📫 Contact
