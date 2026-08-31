@@ -11,12 +11,6 @@ ERP, 예약, 결제, 알림, 대외계 시스템을 하나의 서비스 흐름�
 
 </div>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/RESTful%20API-0284C7?style=for-the-badge&logo=fastapi&logoColor=white" alt="RESTful API" />
-  <img src="https://img.shields.io/badge/Enterprise%20Integration-0F766E?style=for-the-badge&logo=buffer&logoColor=white" alt="Enterprise Integration" />
-  <img src="https://img.shields.io/badge/Common%20Module-16A34A?style=for-the-badge&logo=dependabot&logoColor=white" alt="Common Module" />
-</div>
-
 ## 💼 Experience
 
 <table>
