@@ -113,14 +113,6 @@ ERP, 예약, 결제, 알림, 대외계 시스템을 하나의 서비스 흐름�
   <img src="https://img.shields.io/badge/WebSquare-3B82F6?style=flat-square" alt="WebSquare" />
 </p>
 
-### Integration Experience
-
-<p>
-  <img src="https://img.shields.io/badge/Opera%20ORS-8B5CF6?style=flat-square" alt="Opera ORS" />
-  <img src="https://img.shields.io/badge/BizTalk%20%EC%95%8C%EB%A6%BC%ED%86%A1-FACC15?style=flat-square&logo=kakaotalk&logoColor=000000" alt="BizTalk notifications" />
-  <img src="https://img.shields.io/badge/EAI%20Interface-0F766E?style=flat-square" alt="EAI Interface" />
-</p>
-
 ## 📊 GitHub
 
 <div align="center">
