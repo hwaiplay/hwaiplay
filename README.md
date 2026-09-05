@@ -62,7 +62,7 @@ ERP, 예약, 결제, 알림, 대외계 시스템을 하나의 서비스 흐름�
 
 ## 🚀 Featured Project
 
-### [Sadari](https://github.com/hwaiplay/sadari) — 독서 기록·목표·소셜 PWA
+### [Sadari](https://github.com/hwaiplay/sadari) — 독서 커뮤니티 서비스
 
 도서 검색, 독후감과 독서 목표, 소셜 활동, 독서 모임, 알림과 웹 푸시를 하나의 서비스 흐름으로 구현했습니다. 사용자용 React PWA와 Spring Boot API, 별도 관리자 서비스를 설계하며 기능 구현을 넘어 데이터 정합성, 보안, 운영 가능성을 함께 다루었습니다.
 
