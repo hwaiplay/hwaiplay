@@ -68,11 +68,11 @@ ERP, 예약, 결제, 알림, 대외계 시스템을 하나의 서비스 흐름�
 
 **이 프로젝트에서 확장한 역량**
 
-- **인증 수명주기 설계** — Kakao OAuth 2.0, JWT HttpOnly Cookie, CSRF Token, Redis 세션 메타데이터와 로그아웃 블랙리스트를 결합했습니다.
-- **데이터 정합성과 장애 경계** — 도서·독후감 등록을 하나의 트랜잭션으로 처리하고, FCM은 커밋 후 발송하며 관리자 상태 변경은 DB Outbox로 Redis 반영 실패를 재시도하도록 구성했습니다.
-- **조회 최적화와 검증** — 마이페이지 SQL 왕복을 최대 19회에서 2회로 줄였습니다. 비로컬 MySQL 개발 DB의 단일 연결 JDBC 100회 측정에서 중앙값이 215.241ms에서 26.436ms로 감소했으며, 이는 API·운영 환경 지표와 구분합니다.
-- **문제에 맞는 알고리즘과 보안** — Aho-Corasick 금칙어 탐지, CIELAB 표지 색상 매칭, 이미지 시그니처·해상도·EXIF 검증과 재인코딩을 적용했습니다.
-- **운영과 배포 자동화** — 공통코드·알림 템플릿·메뉴·스케줄러를 관리자 서비스와 공유 테이블로 운영하고, Docker·GHCR·GitHub Actions·EC2 Docker Compose 배포 흐름을 구성했습니다.
+- **인증 수명주기 설계** - Kakao OAuth 2.0, JWT HttpOnly Cookie, CSRF Token, Redis 세션 메타데이터와 로그아웃 블랙리스트를 결합했습니다.
+- **데이터 정합성과 장애 경계** - 도서·독후감 등록을 하나의 트랜잭션으로 처리하고, FCM은 커밋 후 발송하며 관리자 상태 변경은 DB Outbox로 Redis 반영 실패를 재시도하도록 구성했습니다.
+- **조회 최적화와 검증** - 마이페이지 SQL 왕복을 최대 19회에서 2회로 줄였습니다. 비로컬 MySQL 개발 DB의 단일 연결 JDBC 100회 측정에서 중앙값이 215.241ms에서 26.436ms로 감소했으며, 이는 API·운영 환경 지표와 구분합니다.
+- **문제에 맞는 알고리즘과 보안** - Aho-Corasick 금칙어 탐지, CIELAB 표지 색상 매칭, 이미지 시그니처·해상도·EXIF 검증과 재인코딩을 적용했습니다.
+- **운영과 배포 자동화** - 공통코드·알림 템플릿·메뉴·스케줄러를 관리자 서비스와 공유 테이블로 운영하고, Docker·GHCR·GitHub Actions·EC2 Docker Compose 배포 흐름을 구성했습니다.
 
 [Repository](https://github.com/hwaiplay/sadari) · [Wiki](https://github.com/hwaiplay/sadari/wiki) · [성능 개선 근거](https://github.com/hwaiplay/sadari/blob/master/docs/performance/my-page-reading-summary-optimization.md) · [Admin](https://github.com/vellahw/sadari-admin)
 
