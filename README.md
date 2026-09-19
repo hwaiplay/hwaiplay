@@ -4,13 +4,26 @@
 
 <div align="center">
 
-### 백엔드 개발자 강승현입니다
+### 백엔드 개발자 강승현입니다 👋
 
 </div>
 
-## Experience
+## 💼 Experience
 
 <table>
+  <tr>
+    <td width="23%" valign="top">
+      <strong>신라호텔</strong><br />
+      <sub>홈페이지 리뉴얼</sub>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><strong>Opera ORS RESTful API</strong>로 오프라인 객실 예약을 홈페이지에 연동</li>
+        <li><strong>비즈톡</strong>으로 온·오프라인 객실 예약 알림톡 발송 기능 공통화</li>
+        <li>객실 예약 결제 전송용 <strong>EAI 전표 공통 메서드</strong>로 채널별 중복 로직 축소</li>
+      </ul>
+    </td>
+  </tr>
   <tr>
     <td width="23%" valign="top">
       <strong>삼구아이앤씨</strong><br />
@@ -36,28 +49,9 @@
       </ul>
     </td>
   </tr>
-  <tr>
-    <td width="23%" valign="top">
-      <strong>신라호텔</strong><br />
-      <sub>홈페이지 리뉴얼</sub>
-    </td>
-    <td valign="top">
-      <ul>
-        <li><strong>Opera ORS RESTful API</strong>로 오프라인 객실 예약을 홈페이지에 연동</li>
-        <li><strong>비즈톡</strong>으로 온·오프라인 객실 예약 알림톡 발송 기능 공통화</li>
-        <li>객실 예약 결제 전송용 <strong>EAI 전표 공통 메서드</strong>로 채널별 중복 로직 축소</li>
-      </ul>
-    </td>
-  </tr>
 </table>
 
-## Focus
-
-| System Integration | Reusable Backend | Business Understanding |
-|:---:|:---:|:---:|
-| ERP·예약·결제·알림 시스템 연동 | 공통 API와 재사용 모듈 개발 | 업무 흐름에 맞는 안정적인 로직 구현 |
-
-## Project
+## 🚀 Project
 
 ### [Sadari](https://sadaribooks.com) · 독서 커뮤니티
 
@@ -74,7 +68,7 @@ React PWA, Spring Boot API와 별도 관리자 서비스를 개발했습니다.
 
 [Repository](https://github.com/hwaiplay/sadari) · [Wiki](https://github.com/hwaiplay/sadari/wiki) · [성능 개선 근거](https://github.com/hwaiplay/sadari/blob/master/docs/performance/my-page-reading-summary-optimization.md) · [Admin](https://github.com/vellahw/sadari-admin)
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Backend & Security
 
@@ -111,13 +105,13 @@ React PWA, Spring Boot API와 별도 관리자 서비스를 개발했습니다.
   <img src="https://img.shields.io/badge/WebSquare-3B82F6?style=flat-square" alt="WebSquare" />
 </p>
 
-## GitHub
+## 📊 GitHub
 
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hwaiplay&theme=github_dark" alt="hwaiplay GitHub profile details" />
 </div>
 
-## Contact
+## 📫 Contact
 
 <p>
   <a href="mailto:vs81702738@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
