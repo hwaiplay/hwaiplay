@@ -60,11 +60,10 @@
 
 ## 🚀 Featured Project
 
-### [Sadari](https://github.com/hwaiplay/sadari) - 독서 커뮤니티 서비스
+### [Sadari](https://sadaribooks.com) - 독서 커뮤니티 서비스
+### [Git](https://github.com/hwaiplay/sadari)
 
 도서 검색, 독후감과 독서 목표, 소셜 활동, 독서 모임, 알림과 웹 푸시를 하나의 서비스 흐름으로 구현했습니다. 사용자용 React PWA와 Spring Boot API, 별도 관리자 서비스를 설계하며 기능 구현을 넘어 데이터 정합성, 보안, 운영 가능성을 함께 다루었습니다.
-
-**이 프로젝트에서 확장한 역량**
 
 - **인증 수명주기 설계** - Kakao OAuth 2.0, JWT HttpOnly Cookie, CSRF Token, Redis 세션 메타데이터와 로그아웃 블랙리스트를 결합했습니다.
 - **데이터 정합성과 장애 경계** - 도서·독후감 등록을 하나의 트랜잭션으로 처리하고, FCM은 커밋 후 발송하며 관리자 상태 변경은 DB Outbox로 Redis 반영 실패를 재시도하도록 구성했습니다.
