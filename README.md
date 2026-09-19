@@ -4,12 +4,11 @@
 
 <div align="center">
 
-### 안녕하세요, 백엔드 개발자 강승현입니다 👋
-
+### 백엔드 개발자 강승현입니다
 
 </div>
 
-## 💼 Experience
+## Experience
 
 <table>
   <tr>
@@ -19,9 +18,9 @@
     </td>
     <td valign="top">
       <ul>
-        <li>자체 ERP인 <strong>e-SEP</strong>의 기능 개선과 운영 유지보수를 담당했습니다.</li>
-        <li>기존 그룹웨어의 주요 기능을 e-SEP에 통합하여 분산된 업무 흐름을 하나의 ERP에서 처리할 수 있도록 개발했습니다.</li>
-        <li><strong>eGovFrame · MSSQL · WebSquare SP4/SP5</strong> 환경에서 화면과 업무 로직을 구현했습니다.</li>
+        <li>자체 ERP <strong>e-SEP</strong> 개발 및 유지보수</li>
+        <li>그룹웨어 주요 기능을 e-SEP에 통합</li>
+        <li><strong>eGovFrame · MSSQL · WebSquare SP4/SP5</strong>로 화면과 업무 로직 개발</li>
       </ul>
     </td>
   </tr>
@@ -32,8 +31,8 @@
     </td>
     <td valign="top">
       <ul>
-        <li>서비스 간 데이터 연계를 위한 <strong>RESTful API</strong>를 개발했습니다.</li>
-        <li><strong>Spring Boot · JavaScript · Oracle</strong> 기반으로 백엔드 API와 연계 기능을 구현했습니다.</li>
+        <li>서비스 간 데이터 연계용 <strong>RESTful API</strong> 개발</li>
+        <li><strong>Spring Boot · JavaScript · Oracle</strong> 사용</li>
       </ul>
     </td>
   </tr>
@@ -44,36 +43,38 @@
     </td>
     <td valign="top">
       <ul>
-        <li><strong>Opera ORS RESTful API</strong>를 연동하여 오프라인 객실 예약 시스템을 홈페이지 예약 흐름에 통합했습니다.</li>
-        <li><strong>비즈톡</strong>을 이용해 온라인 객실, 오프라인 객실 예약의 알림톡 발송을 하나의 공통 기능으로 구축했습니다.</li>
-        <li>객실 예약 결제 정보를 전송하는 <strong>EAI 전표 공통 메서드</strong>를 개발하여 채널별 중복 로직을 줄였습니다.</li>
+        <li><strong>Opera ORS RESTful API</strong>로 오프라인 객실 예약을 홈페이지에 연동</li>
+        <li><strong>비즈톡</strong>으로 온·오프라인 객실 예약 알림톡 발송 기능 공통화</li>
+        <li>객실 예약 결제 전송용 <strong>EAI 전표 공통 메서드</strong>로 채널별 중복 로직 축소</li>
       </ul>
     </td>
   </tr>
 </table>
 
-## 🎯 What I Do Best
+## Focus
 
 | System Integration | Reusable Backend | Business Understanding |
 |:---:|:---:|:---:|
-| ERP·예약·결제·알림 시스템 연동 | 공통 API와 재사용 모듈 개발 | 복잡한 업무 흐름을 안정적인 로직으로 구현 |
+| ERP·예약·결제·알림 시스템 연동 | 공통 API와 재사용 모듈 개발 | 업무 흐름에 맞는 안정적인 로직 구현 |
 
-## 🚀 Featured Project
+## Project
 
-### [Sadari](https://sadaribooks.com) - 독서 커뮤니티 서비스
-### [Git](https://github.com/hwaiplay/sadari)
+### [Sadari](https://sadaribooks.com) · 독서 커뮤니티
 
-도서 검색, 독후감과 독서 목표, 소셜 활동, 독서 모임, 알림과 웹 푸시를 하나의 서비스 흐름으로 구현했습니다. 사용자용 React PWA와 Spring Boot API, 별도 관리자 서비스를 설계하며 기능 구현을 넘어 데이터 정합성, 보안, 운영 가능성을 함께 다루었습니다.
+도서 검색, 독후감, 독서 목표·모임, 소셜 활동, 알림·웹 푸시를 제공합니다.
+React PWA, Spring Boot API와 별도 관리자 서비스를 개발했습니다.
 
-- **인증 수명주기 설계** - Kakao OAuth 2.0, JWT HttpOnly Cookie, CSRF Token, Redis 세션 메타데이터와 로그아웃 블랙리스트를 결합했습니다.
-- **데이터 정합성과 장애 경계** - 도서·독후감 등록을 하나의 트랜잭션으로 처리하고, FCM은 커밋 후 발송하며 관리자 상태 변경은 DB Outbox로 Redis 반영 실패를 재시도하도록 구성했습니다.
-- **조회 최적화와 검증** - 마이페이지 SQL 왕복을 최대 19회에서 2회로 줄였습니다. 비로컬 MySQL 개발 DB의 단일 연결 JDBC 100회 측정에서 중앙값이 215.241ms에서 26.436ms로 감소했으며, 이는 API·운영 환경 지표와 구분합니다.
-- **문제에 맞는 알고리즘과 보안** - Aho-Corasick 금칙어 탐지, CIELAB 표지 색상 매칭, 이미지 시그니처·해상도·EXIF 검증과 재인코딩을 적용했습니다.
-- **운영과 배포 자동화** - 공통코드·알림 템플릿·메뉴·스케줄러를 관리자 서비스와 공유 테이블로 운영하고, Docker·GHCR·GitHub Actions·EC2 Docker Compose 배포 흐름을 구성했습니다.
+- **인증**: Kakao OAuth 2.0, JWT HttpOnly Cookie, CSRF Token. Redis로 세션 메타데이터와 로그아웃 블랙리스트 관리.
+- **데이터 정합성**: 도서·독후감 등록을 하나의 트랜잭션으로 처리. FCM은 커밋 후 발송하고, 관리자 상태의 Redis 반영 실패는 DB Outbox로 재시도.
+- **조회 성능**: 마이페이지 SQL 왕복 최대 19회 → 2회. 중앙값 215.241ms → 26.436ms.¹
+- **알고리즘·보안**: Aho-Corasick 금칙어 탐지, CIELAB 표지 색상 매칭. 이미지 시그니처·해상도·EXIF 검증 및 재인코딩.
+- **운영·배포**: 관리자 서비스와 공유 테이블로 공통코드·알림 템플릿·메뉴·스케줄러 관리. Docker·GHCR·GitHub Actions·EC2 Docker Compose 배포 구성.
+
+<sub>¹ 비로컬 MySQL 개발 DB, 단일 연결 JDBC 100회 측정. API·운영 환경 지표는 아닙니다.</sub>
 
 [Repository](https://github.com/hwaiplay/sadari) · [Wiki](https://github.com/hwaiplay/sadari/wiki) · [성능 개선 근거](https://github.com/hwaiplay/sadari/blob/master/docs/performance/my-page-reading-summary-optimization.md) · [Admin](https://github.com/vellahw/sadari-admin)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend & Security
 
@@ -110,13 +111,13 @@
   <img src="https://img.shields.io/badge/WebSquare-3B82F6?style=flat-square" alt="WebSquare" />
 </p>
 
-## 📊 GitHub
+## GitHub
 
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hwaiplay&theme=github_dark" alt="hwaiplay GitHub profile details" />
 </div>
 
-## 📫 Contact
+## Contact
 
 <p>
   <a href="mailto:vs81702738@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" /></a>
@@ -124,6 +125,5 @@
 </p>
 
 <div align="center">
-  <sub>기능을 만드는 데서 멈추지 않고, 여러 시스템이 안정적으로 함께 동작하도록 연결합니다.</sub>
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,50:0369A1,100:0F172A&height=110&section=footer" alt="footer" />
 </div>
